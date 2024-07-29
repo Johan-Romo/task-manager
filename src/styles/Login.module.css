@@ -1,0 +1,37 @@
+/* Login.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('degradado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .formContainer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .alert {
+    margin-top: 9rem;
+
+  }
+  
+  .btn {
+    width: 100%;
+    
+  }
+  

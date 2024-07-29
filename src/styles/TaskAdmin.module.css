@@ -1,0 +1,42 @@
+/* TaskAdmin.module.css */
+.body{
+    background-color: #353437; 
+}
+.container {
+    background-color: #353437;
+    padding: 5rem;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    color: #343a40;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .labelTitle {
+    color: white;
+    display: block;
+   
+  }
+  
+  .labelSubTitle {
+    color: white;
+  }
+  
+  .listGroupItem {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 0.9rem;
+    background-color: #a39b7e;
+    color: white;
+  }
+  
+  .formLabel {
+    margin-top: 0.9rem;
+
+  }
+
+ 

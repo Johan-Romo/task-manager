@@ -1,0 +1,10 @@
+import { db } from '../../../firebase';
+
+export default async (req, res) => {
+  const { id } = req.query;
+
+  if (req.method === 'DELETE') {
+    await db.collection('tasks').doc(id).delete();
+    res.status(204).end();
+  }
+};
